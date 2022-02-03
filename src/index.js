@@ -30,4 +30,15 @@ import 'bootstrap/dist/css/bootstrap.css'
 // )
  const contenedor=document.getElementById('root')
 
-ReactDom.render(<Card></Card>,contenedor)
+ReactDom.render(<Card
+            titulo="Hola mundo con props como les queda el ojo"
+            descripcion="estas son las propiedades"
+            leftColor="#A74CF2"
+            rightColor="#617BFB"
+
+
+
+
+
+
+/> ,contenedor)
